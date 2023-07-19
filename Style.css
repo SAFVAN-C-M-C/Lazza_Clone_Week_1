@@ -39,11 +39,15 @@
     align-items: center;
 }
 
+
 .logo-img {
     width: 120px;
     height: 65.9px;
     background-image: url("https://lazza.co.in/assets/images/logo.png");
     background-size: cover;
+}
+.nav-logo:hover{
+    transform: scale(1.0082);
 }
 
 ul {
@@ -70,6 +74,9 @@ a {
     display: flex;
     align-items: center;
 }
+.nav-search a:hover{
+    transform: scale(1.06);
+}
 
 .list-item {
     display: inline-block;
@@ -82,9 +89,13 @@ a {
 
 
 }
+.list-item:hover{
+    transform: scale(1.05);
+}
 .list-item a:hover{
     text-decoration: underline white;
     color:#e9b60e;
+    
 }
 
 .search-items {
@@ -125,6 +136,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 .block {
@@ -144,12 +157,20 @@ a {
 }
 
 .product {
+    padding-top: 10px;
     width: 406px;
-    height: 375px;
+    height: 365px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: transparent;
+    transition: all;
+    transition-duration: 2s;
 
+}
+.product:hover{
+    background-color: #ced5ff;
+    box-shadow: 1px 1px 8px 1px rgb(73, 62, 62);
 }
 
 .product-image {
@@ -229,6 +250,9 @@ a {
     text-align: center;
     z-index: 10000;
 }
+.whats-app-icon:hover{
+    transform: scale(1.06);
+}
 
 .footer {
     background-color: #000;
@@ -281,11 +305,17 @@ a {
     font-weight: 400;
     line-height: 30px;
 }
+.footer-text:hover{
+    text-decoration: underline #be9509;
+}
 
 .footer-logo {
     width: 30px;
     height: 30px;
     margin: 0px 5px 20px 0px;
+}
+.footer-logo:hover{
+    transform: scale(1.05);
 }
 
 .footer-inner-img2 {
