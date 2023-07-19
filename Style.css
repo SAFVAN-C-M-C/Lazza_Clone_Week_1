@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#header {
+    background: #000;
+    width: 100%;
+    height: 95.9px;
+    position: fixed;
+
+}
+
+.nav-bar {
+    width: 100%;
+    height: 95.9px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-logo {
+    margin-left: 52.975px;
+    width: 60%;
+    height: 95.9px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-items {
+    width: 40%;
+    height: 95.9px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 120px;
+    height: 65.9px;
+    background-image: url("https://lazza.co.in/assets/images/logo.png");
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav-menu {
+
+    width: 70%;
+    height: 95.9px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    width: 30%;
+    height: 95.9px;
+    display: flex;
+    align-items: center;
+}
+
+.list-item {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-right: 20px;
+
+    text-decoration: none;
+    color: #fff;
+
+
+}
+.list-item a:hover{
+    text-decoration: underline white;
+    color:#e9b60e;
+}
+
+.search-items {
+    width: 23px;
+    height: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.cart-items {
+    width: 20px;
+    height: 20px;
+    background: red;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: -8px;
+    position: relative;
+    top: -19px;
+    right: 14px;
+
+}
+
+.banner-section {
+    height: 795px;
+    width: 100%;
+    background-image: url("https://lazza.co.in/admin/uploads/banner/2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.product-main {
+    margin-top: 100px;
+    height: 1300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    margin: 40px;
+    width: 1220px;
+    height: 1229.15px;
+    color: #212529;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.heading {
+    width: 100%;
+    height: 55px;
+    margin-bottom: 50px;
+}
+
+.product {
+    width: 406px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.product-image {
+    width: 376px;
+    height: 275;
+
+}
+
+.h1-heading {
+    font-size: 46px;
+    /* font-weight: 500; */
+    text-align: center;
+    color: #212529;
+    font-weight: 525;
+    line-height: 1.2;
+    letter-spacing: 8px;
+}
+
+.product-name {
+    width: 406px;
+    height: 100;
+
+    text-align: center;
+    padding-top: 10px;
+    /* background: aqua; */
+}
+
+.a-name {
+    color: #212529;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.offer-main {
+    width: 100%;
+    height: 638px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.offer-image {
+    width: 1220px;
+    height: 638px;
+    background-image: url("https://lazza.co.in/admin/uploads/banner/MONSOON_F1_CHIKOO__1200_x_628_.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.party-sec {
+    background-color: #be9509;
+    width: 100%;
+    height: 235.39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.party-img {
+    width: 1220px;
+    height: 195.39px;
+    background-image: url("https://lazza.co.in/admin/uploads/banner/-0sfr9y9ZHtBGavj1rfES_u4_(1)2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.whats-app-icon {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    z-index: 10000;
+}
+
+.footer {
+    background-color: #000;
+    width: 100%;
+    height: 156.65px;
+    display: flex;
+    align-items: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.container {
+    width: 1250px;
+    height: 156.65px;
+    display: flex;
+    margin: 0px 134.6px;
+    /* align-items: center; */
+    /* background-color: #be9509; */
+}
+
+.footer-colmn {
+    padding: 0px 15px;
+    width: 173.3px;
+    height: 156.65;
+    /* background-color: aqua; */
+
+}
+
+.footer-inner-img {
+    margin-bottom: 20px;
+    width: 150px;
+    height: 136.65px;
+    background-image: url("https://lazza.co.in/assets/images/simons.png");
+    background-size: cover;
+}
+
+.footer-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.footer-text {
+    color: #be9509;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-logo {
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px 20px 0px;
+}
+
+.footer-inner-img2 {
+    margin-bottom: 20px;
+    width: 150px;
+    height: 117.65px;
+    background-image: url("	https://lazza.co.in/assets/images/footer_logo.png");
+    background-size: cover;
+}
+
+.final {
+    background-color: #000;
+    border-top: solid 1px #666;
+    height: 48.8px;
+    padding: 20px 20px 0px;
+    color: #ffc107;
+    font-size: 16px;
+}
+.final-container{
+    width: 100%;
+    display: flex;
+}
+.final-col-1{
+    text-align:left;
+    width:50%;
+}
+.final-col-2{
+    text-align:right;
+    width:50%;
+}
+
